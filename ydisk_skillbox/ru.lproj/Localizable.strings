@@ -1,0 +1,72 @@
+/* 
+  Localizable.strings
+  ydisk_skillbox
+
+  Created by Евгений Бурдюжа on 06.09.2022.
+  
+*/
+
+//ProfileViewController
+
+" GB - busy" = " Гб - занято";
+
+" GB - free" = " Гб - свободно";
+
+"Exit" = "Выйти";
+
+"Exit profile" = "Выйти из профиля";
+
+"Cancel" = "Отмена";
+
+"Are you sure you want to log out of your profile?" = "Вы точно хотите выйти из профиля?";
+
+"Yes" = "Да";
+
+//FileViewController
+
+"Share" = "Поделится";
+
+"Share link" = "Поделится ссылкой";
+
+"Share file" = "Поделится файлом";
+
+"This image will be removed" = "Это изображение будет удалено";
+
+"Delete image" = "Удалить изображение";
+
+"Delete a file" = "Удалить файл";
+
+"Are you sure you want to delete the file?" = "Вы точно хотите удалить файл?";
+
+"Yes, delete" = "Да, удалить";
+
+"Failed to delete file" = "Не удалось удалить файл";
+
+"Rename" = "Переименовать";
+
+"File renamed successfully" = "Файл переименован успешно";
+
+"Failed to rename file" = "Не удалось переименовать файл";
+
+"OK" = "ОК";
+
+"This feature is not available without internet" = "Эта функция не доступна без интернета";
+
+"Link successfully copied" = "Ссылка успешно скопирована";
+
+//Onboarding
+
+"Now all your documents are in one place" = "Теперь все ваши документы в одном месте";
+
+"Access files offline" = "Доступ к файлам без интернета";
+
+"Share your files with others" = "Делитесь вашими файлами с другими";
+
+"Start" = "Начать";
+
+"Next" = "Далее";
+
+//AllResourceViewController
+
+"This object is not in the cache" = "Такого объекта нет в кэше";
+

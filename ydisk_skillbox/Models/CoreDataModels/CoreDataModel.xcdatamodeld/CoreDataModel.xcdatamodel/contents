@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="20086" systemVersion="21G72" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="AllFileResourseList" representedClassName="AllFileResourseList" syncable="YES">
+        <attribute name="limit" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="path" optional="YES" attributeType="String"/>
+        <relationship name="items" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="ResourceCoreDataAllFiles"/>
+    </entity>
+    <entity name="DiskCoreData" representedClassName="DiskCoreData" syncable="YES">
+        <attribute name="totalSpace" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="trashSize" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="usedSpace" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="FileCoreData" representedClassName="FileCoreData" syncable="YES">
+        <attribute name="created" optional="YES" attributeType="String"/>
+        <attribute name="fileObject" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES"/>
+        <attribute name="md5" optional="YES" attributeType="String"/>
+        <attribute name="mimi_type" optional="YES" attributeType="String"/>
+        <attribute name="modified" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="path" optional="YES" attributeType="String"/>
+        <attribute name="preview" optional="YES" attributeType="String"/>
+        <attribute name="publick_key" optional="YES" attributeType="String"/>
+        <attribute name="resource_id" optional="YES" attributeType="String"/>
+        <attribute name="revision" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="size" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="type" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="LastUploadedResourceListCoreData" representedClassName="LastUploadedResourceListCoreData" syncable="YES">
+        <attribute name="limit" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="items" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="ResourceCoreData"/>
+    </entity>
+    <entity name="ResourceCoreData" representedClassName="ResourceCoreData" syncable="YES">
+        <attribute name="created" optional="YES" attributeType="String"/>
+        <attribute name="md5" optional="YES" attributeType="String"/>
+        <attribute name="mime_type" optional="YES" attributeType="String"/>
+        <attribute name="modified" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="path" optional="YES" attributeType="String"/>
+        <attribute name="preview" optional="YES" attributeType="String"/>
+        <attribute name="public_key" optional="YES" attributeType="String"/>
+        <attribute name="resource_id" optional="YES" attributeType="String"/>
+        <attribute name="revision" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="size" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="type" optional="YES" attributeType="String"/>
+        <relationship name="embedded" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ResourceListCoreData" inverseName="items" inverseEntity="ResourceListCoreData"/>
+    </entity>
+    <entity name="ResourceCoreDataAllFiles" representedClassName="ResourceCoreDataAllFiles" syncable="YES">
+        <attribute name="created" optional="YES" attributeType="String"/>
+        <attribute name="md5" optional="YES" attributeType="String"/>
+        <attribute name="mime_type" optional="YES" attributeType="String"/>
+        <attribute name="modified" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="path" optional="YES" attributeType="String"/>
+        <attribute name="preview" optional="YES" attributeType="String"/>
+        <attribute name="public_key" optional="YES" attributeType="String"/>
+        <attribute name="resource_id" optional="YES" attributeType="String"/>
+        <attribute name="revision" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="size" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="type" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="ResourceListCoreData" representedClassName="ResourceListCoreData" syncable="YES">
+        <attribute name="limit" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="offset" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="path" optional="YES" attributeType="String"/>
+        <attribute name="public_key" optional="YES" attributeType="String"/>
+        <attribute name="sort" optional="YES" attributeType="String"/>
+        <attribute name="total" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="items" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="ResourceCoreData" inverseName="embedded" inverseEntity="ResourceCoreData"/>
+    </entity>
+    <elements>
+        <element name="AllFileResourseList" positionX="-279" positionY="-405" width="128" height="74"/>
+        <element name="DiskCoreData" positionX="-279" positionY="-405" width="128" height="74"/>
+        <element name="FileCoreData" positionX="-279" positionY="-405" width="128" height="224"/>
+        <element name="LastUploadedResourceListCoreData" positionX="-198" positionY="-216" width="128" height="59"/>
+        <element name="ResourceCoreData" positionX="-429.33984375" positionY="-569.8203125" width="157.73046875" height="224"/>
+        <element name="ResourceCoreDataAllFiles" positionX="-468.79296875" positionY="-45.94140625" width="128" height="209"/>
+        <element name="ResourceListCoreData" positionX="-86.98828125" positionY="-36.59375" width="120.890625" height="134"/>
+    </elements>
+</model>

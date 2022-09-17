@@ -1,0 +1,45 @@
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "0Ut-rr-gjz"; */
+"0Ut-rr-gjz.text" = "Label";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "7eH-eo-2P9"; */
+"7eH-eo-2P9.title" = "Item";
+
+/* Class = "UINavigationItem"; title = "Файл"; ObjectID = "Dpo-RU-BAh"; */
+"Dpo-RU-BAh.title" = "Файл";
+
+/* Class = "UIButton"; configuration.title = "Далее"; ObjectID = "Gib-cm-7Zh"; */
+"Gib-cm-7Zh.configuration.title" = "Далее";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Gib-cm-7Zh"; */
+"Gib-cm-7Zh.normalTitle" = "";
+
+/* Class = "UIButton"; configuration.title = "Опубликованные файлы"; ObjectID = "HGs-fz-o7c"; */
+"HGs-fz-o7c.configuration.title" = "Опубликованные файлы";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "HGs-fz-o7c"; */
+"HGs-fz-o7c.normalTitle" = "Опубликованные файлы";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "JyR-tH-YWY"; */
+"JyR-tH-YWY.normalTitle" = "";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "U7t-kL-MCH"; */
+"U7t-kL-MCH.text" = "Label";
+
+/* Class = "UIViewController"; title = "Onboarding"; ObjectID = "d0b-VY-odL"; */
+"d0b-VY-odL.title" = "Onboarding";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "duo-ow-LqJ"; */
+"duo-ow-LqJ.text" = "Label";
+
+/* Class = "UIButton"; configuration.title = "Обновить"; ObjectID = "gCh-mF-g8a"; */
+"gCh-mF-g8a.configuration.title" = "Обновить";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "gCh-mF-g8a"; */
+"gCh-mF-g8a.normalTitle" = "";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "hc4-kl-7TH"; */
+"hc4-kl-7TH.normalTitle" = "";
+
+/* Class = "UILabel"; text = "У вас пока нет опубликованных файлов"; ObjectID = "x7E-8h-N6B"; */
+"x7E-8h-N6B.text" = "У вас пока нет опубликованных файлов";
